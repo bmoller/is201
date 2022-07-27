@@ -59,3 +59,43 @@ nav.aboutme-nav {
   position: fixed;
   top: 50%;
 }
+
+body.tableau-body {
+  margin: 0 0;
+}
+
+nav.tableau-nav {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  width: 100%;
+}
+
+nav.tableau-nav div {
+  height: 82px;
+  margin: 0 auto;
+  max-width: 1224px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+nav.tableau-nav div a {
+  color: rgb(33, 37, 41);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+a.tableau-nav-header {
+  float: left;
+  font-size: 20px;
+}
+
+a.tableau-nav-link {
+  float: right;
+  font-size: 12px;
+  letter-spacing: 0.75px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-transform: uppercase;
+}
