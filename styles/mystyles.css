@@ -1,4 +1,4 @@
-/* 
+/*
  * Color values come from the default, dark version of the Solarized color
  * scheme: https://ethanschoonover.com/solarized/
  */
@@ -6,50 +6,56 @@
 /* Element defaults */
 
 a {
-    color: #cb4b16;
+  color: #cb4b16;
 }
 
 a:hover {
-    color: #cb4b16;
-    text-decoration: underline;
+  color: #cb4b16;
+  text-decoration: underline;
 }
 
 body {
-    background-color: #002b36;
-    background-size: cover;
-    color: #839496;
+  background-color: #002b36;
+  background-size: cover;
+  color: #839496;
 }
 
 p a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Generic classes */
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Specific classes */
 
+div.tableauPlaceholder object {
+  height: 800px;
+  width: 100%;
+}
+
 footer.home-footer {
-    bottom: 5px;
-    position: absolute;
-    width: 100%;
+  bottom: 5px;
+  position: absolute;
+  width: 100%;
 }
 
 header.masthead {
-    background: none;
+  background: none;
+  background-size: cover;
 }
 
 header.masthead::before {
-    opacity: 0;
+  opacity: 0;
 }
 
 nav.aboutme-nav {
-    background-color: #073642;
-    right: 5px;
-    padding: 5px;
-    position: fixed;
-    top: 50%
+  background-color: #073642;
+  right: 5px;
+  padding: 5px;
+  position: fixed;
+  top: 50%;
 }
