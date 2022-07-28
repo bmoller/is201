@@ -99,3 +99,45 @@ a.tableau-nav-link {
   padding-right: 16px;
   text-transform: uppercase;
 }
+
+main.tableau-main {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  width: 60%;
+}
+
+h1.tableau-masthead {
+  color: #93a1a1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  margin: 0;
+  padding-bottom: 200px;
+  padding-top: 118px;
+}
+
+h2.tableau-caption {
+  color: #93a1a1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+footer.tableau-footer {
+  border-top-color: rgb(222, 226, 230);
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  text-align: center;
+}
+
+div.tableau-footer-text {
+  color: rgb(108, 117, 125);
+  font-family: Lora, Segoe UI, sans-serif;
+  font-size: 17.5px;
+  font-style: italic;
+  font-weight: 400;
+}
